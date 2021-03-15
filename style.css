@@ -1,0 +1,60 @@
+html {
+	background-image: radial-gradient(#ffff99,#ff9966,#ff5050);
+	font-family:arial;
+}
+body{
+	font-size:12;
+	color:black;
+}
+h1{
+	font-family:times new roman;
+	font-size:18;
+}
+a:link {
+  color:blue;
+  
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: red;
+  background-color: yellow;
+  }
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.topnav {
+  overflow: hidden;
+  background-color:#e60000;
+  }
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  font-weight: bold;
+  font-size: 120%;
+  font-family:times new roman;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+p{
+	text-indent:75px;
+}
+li{
+	list-style-position: inside;
+	margin-left: 00; padding-left: 70px;
+	font-style:italic;
+}
+@media only screen and (max-width:500px) {
+  body {
+    background-color:#FFFFE0;
+  }
+}
