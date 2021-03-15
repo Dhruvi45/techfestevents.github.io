@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+<head>
+<title>
+Registration
+</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="rstyle.css">
+<style>
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+</style>
+</head>
+<body>
+<p style="font-size:50px" align="center"> <b> Techfest </b> </p>
+<div class="topnav">
+
+<a href="index.html" target="_blank">Home</a> &ensp;  &ensp; 
+<a href="Technical Event.html" target="_blank">Technical Event</a> &ensp;  &ensp; 
+<a href="Cultural Event.html" target="_blank">Cultural Event</a> &ensp;  &ensp; 
+<a href="Sports Event.html" target="_blank">Sports Event</a> &ensp; 
+<a href="Registration.html" target="_blank">Registration</a> &ensp; 
+<br>
+</div>
+<h1 align=center >Registration Form </h1>
+<form style="font-size:20px">
+<fieldset>
+<legend style="font-size:25px"><u><b>Personal Details</b></u></legend>
+<br>
+<label for="name">Name : </label>
+<input type="text" name="name" id="name" placeholder="Enter your name"/>
+<br><br>
+<label for="er.no.">Enrolment No.</label>
+<input type="number" name="er.no." id="er.no." size="12" placeholder="Enter your enrolment no."/>
+<br>
+<br>
+<label for="email">E mail : </label>
+<input type="email" name="email" id="E mail"placeholder="Enter your email"/>
+<br>
+<br>
+<label for="pno">Phone No. : </label>
+<input type="number" name="pno" id="Phone No." placeholder="Enter your phone no."/><br><br>
+<label for="dob">Date of birth : </label>
+<input type="date" name="dob" id="Date of birth" /><br><br>
+<label for="city">City : </label>
+<select name="city" id="city" >
+<option value="Select your city">Select your city</option>
+<option value="Bhavnagar">Bhavnagar</option>
+<option value="Rajkot">Rajkot</option>
+<option value="Ahemdabad">Ahemdabad</option>
+<option value="Amreli">Amreli</option>
+<option value="Surat">Surat</option>
+</select>
+<br>
+</fieldset>
+<br>
+<fieldset>
+<br>
+<legend style="font-size:25px"><u><b>Educational Details</b></u></legend>
+<label for="College name">College name : </label>
+<input list="cname" name="cname"  id="College name :" placeholder="Select your city">
+<datalist id="cname">
+<option value="AHMEDABAD INSTITUTE OF TECHNOLOGY,GOTA, AHMEDABAD">
+<option value="ATMIYA INSTITUTE OF TECHNOLOGY & SCIENCE, RAJKOT">
+<option value="GOVERNMENT ENGINEERING COLLEGE, RAJKOT">
+<option value="GOVERNMENT ENGINEERING COLLEGE,BHAVNAGAR">
+<option value="SHANTILAL SHAH ENGINEERING COLLEGE,BHAVNAGAR">
+</datalist>
+<br><br>
+<label for="sem">Semester : </label>
+<input type="radio" id="sem" name="sem" value="1">
+<label for="sem">1</label>
+<input type="radio" id="sem" name="sem" value="2">
+<label for="sem">2</label>
+<input type="radio" id="sem" name="sem" value="2">
+<label for="sem">3</label>
+<input type="radio" id="sem" name="sem" value="4">
+<label for="sem">4</label>
+<input type="radio" id="sem" name="sem" value="5">
+<label for="sem">5</label>
+<input type="radio" id="sem" name="sem" value="6">
+<label for="sem">6</label>
+<input type="radio" id="sem" name="sem" value="7">
+<label for="sem">7</label>
+<input type="radio" id="sem" name="sem" value="8">
+<label for="sem">8</label>
+<br>
+</fieldset>
+<br>
+<fieldset>
+<br>
+<legend style="font-size:25px"><u><b>Events</b></u></legend>
+<label for="Technical Event">Technical Event : </label>
+<input type="checkbox" id="te" name="te" value="Pattern ++">
+<label for="te"> Pattern ++</label>
+<input type="checkbox" id="te" name="te" value="Code Reading">
+<label for="te"> Code Reading</label>
+<input type="checkbox" id="te" name="te" value="Webs Guru">
+<label for="te"> Webs Guru</label>
+<input type="checkbox" id="te" name="te" value="Code Blase">
+<label for="te"> Code Blase</label>
+<input type="checkbox" id="te" name="te" value="Robo clenching">
+<label for="te"> Robo clenching</label>
+<br><br>
+<label for="Cultural Event">Cultural Event : </label>
+<input type="checkbox" id="ce" name="ce" value="Dance ( Classical )">
+<label for="te"> Dance ( Classical )</label>
+<input type="checkbox" id="ce" name="ce" value="Dance ( Western )">
+<label for="te"> Dance ( Western )</label>
+<input type="checkbox" id="ce" name="ce" value="Rangoli">
+<label for="te"> Rangoli</label>
+<input type="checkbox" id="ce" name="ce" value="Play / Drama">
+<label for="te"> Play / Drama</label>
+<input type="checkbox" id="ce" name="ce" value="Folk Dance">
+<label for="te"> Folk Dance</label>
+<br>
+<br>
+<label for="Sports Event">Sports Event : </label>
+<input type="checkbox" id="se" name="se" value="Cricket">
+<label for="te"> Cricket</label>
+<input type="checkbox" id="se" name="se" value="Carrom">
+<label for="te"> Carrom</label>
+<input type="checkbox" id="se" name="se" value="Chess">
+<label for="te"> Chess</label>
+<input type="checkbox" id="se" name="se" value="Badminton">
+<label for="te"> Badminton</label>
+<input type="checkbox" id="se" name="se" value="Race">
+<label for="te"> Race</label>
+<br>
+</fieldset>
+<br>
+<fieldset> 
+<br>
+<legend style="font-size:25px"><u><b>Login Details</b></u></legend>
+<label for="username">Username : </label>
+<input type="text" id="username" name="username">
+<br><br>
+<label for="pwd">Password : </label>
+<input type="password" id="pwd" name="pwd">
+</br>
+</fieldset>
+<br>
+<div style="text-align:center">
+<input type="submit" value="Submit Now" onclick="alert('Thank You !! Your response has been submitted. ')" style="font-size:15px;color:white;background-color:green;border:2px solid #336600;padding:3px">&ensp;
+<input type="reset" value="Clear All"style="font-size:15px;color:white;background-color:green;border:2px solid #336600;padding:3px">
+</div>
+</form>
+<br>
+<marquee direction="left" behavior="slide" >"For more details, Visit <a href="http://www.gecbh.cteguj.in/" target="_blank" style="font-weight: bold;">GEC Bhavnagar official Website"</a> </marquee>
+</body>
+</html>
